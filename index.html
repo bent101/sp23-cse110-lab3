@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meeting minutes</title>
+    <link rel="icon" href="favicon.png" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <br />
+        <a href="/">Meeting 1 Notes</a>
+        &nbsp;•&nbsp;
+        <a
+          href="https://www.google.com/search?rlz=1C5CHFA_enUS1037US1037&sxsrf=APwXEdeJfAuViUpsYU6HhgkHbiXhsIBpeA:1681373827571&q=troll+face&tbm=isch&sa=X&ved=2ahUKEwiQgujNtab-AhUUl2oFHd3qAC4Q0pQJegQIDBAB&biw=1920&bih=976&dpr=1"
+        >
+          Meeting 2 Notes
+        </a>
+      </nav>
+      <br />
+    </header>
+
+    <hr />
+    <main>
+      <h1>Meeting 1 Notes</h1>
+
+      <section>
+        <h2>Video</h2>
+        <video width="480" src="/video.mp4" controls>
+          Video explaining HTML
+        </video>
+      </section>
+      <section>
+        <h2>Audio</h2>
+        <audio src="/audio.mp3" controls>Audio of the above video</audio>
+        <details>
+          <summary>Show transcript</summary>
+
+          <p>
+            Hypertext Markup Language or <em>HTML</em> is a language that
+            defines the structure of content on a webpage. Development started
+            in 1989 at CERN by Tim Berners-Lee, who had just invented the
+            world's first web browser, World Wide Web - the origin of WWW. But
+            he needed a publishing language to display content within it, so he
+            chose a syntax based on the Standard Generalized Markup Language,
+            which uses opening and closing tags to provide meaning to otherwise
+            unorganized text, like <b>H4</b> heading, <b>P</b> for paragraph,
+            and, most importantly, <b>A</b> for anchor to link to a different
+            webpage.
+          </p>
+
+          <p>
+            The language underwent many changes during the initial rise of the
+            internet and was standardized as HTML5 in <i>2008</i>, the version
+            we know and love today. Modern HTML contains tags to handle a
+            variety of different media types, like video, audio, and canvas to
+            draw custom graphics on the fly.
+          </p>
+
+          <p>
+            The typical HTML element starts with an opening and closing tag. In
+            the middle, we have content, which might be text or additional HTML
+            elements called children. The opening tag may also have one or more
+            attributes, which are key-value pairs that can customize the
+            appearance or behavior of the element.
+          </p>
+
+          <p>
+            To build your first webpage, create a file named "index.html". This
+            file contains a hierarchy of nodes based on the Document Object
+            Model or DOM. A webpage starts with an HTML tag and has exactly two
+            children: a head and a body. The head contains things that aren't
+            directly shown in the webpage, like a title or a meta tag to give
+            the page a description. But notice how the meta element has no
+            closing tag. Closing tags are generally optional when an element is
+            fully self-contained. The body contains the actual UI for the end
+            user. We might start with an H1 heading, followed by a paragraph of
+            content.
+          </p>
+
+          <p>
+            To add an image, we use an <b>image</b> tag, which you'll notice is
+            self-closing, then define the source attribute as the file path to
+            the image, and you'll want to give it an alt description to make it
+            accessible to robots and screen readers.
+          </p>
+
+          <p>
+            What makes webpages revolutionary though is their ability to link to
+            other webpages on the information superhighway. Use an anchor tag to
+            create a link, then define the href attribute as the webpage that
+            you want to navigate to when clicked.
+          </p>
+
+          <p>
+            HTML also provides structural tags like division or div, which are
+            often used to group elements together where they can be styled to
+            represent complex UI elements like navbars.
+          </p>
+
+          <p>
+            When you're happy with your code, grab the full file path to the
+            HTML file and paste it into any web browser. Congratulations, you
+            just built your first website!
+          </p>
+
+          <p>
+            This has been Hypertext Markup Language in 100 seconds. Hit the
+            subscribe button so you don't miss the upcoming sequels. Thanks for
+            watching and I will see you in the next one.
+          </p>
+        </details>
+      </section>
+      <section>
+        <h2>Notes</h2>
+        <h3>Timeline</h3>
+        <ol>
+          <li>Do something</li>
+          <li>Do something else</li>
+          <li>Do the last thing</li>
+        </ol>
+        <h3>Reminders</h3>
+        <ul>
+          <li>Finish this</li>
+          <li>Start that</li>
+          <li><strong>Don't forget that</strong></li>
+        </ul>
+      </section>
+
+      <form>
+        <fieldset>
+          <legend>Take this quick survey</legend>
+          <label>
+            <input type="radio" name="framework" value="svelte" />
+            Svelte
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="framework" value="react" />
+            React
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="framework" value="none" />
+            None of the above
+          </label>
+          <br />
+          <label>
+            Explain your reasoning in 5 paragraphs:
+            <br />
+            <textarea cols="30" rows="10"></textarea>
+            <br />
+          </label>
+          Year:
+          <select name="year">
+            <option value="First">First</option>
+            <option value="Second">Second</option>
+            <option value="Third">Third</option>
+            <option value="Fourth">Fourth</option>
+          </select>
+
+          <br />
+
+          <label>
+            Gender:
+
+            <input list="gender-options" name="gender" />
+            <datalist id="gender-options">
+              <option value="Male"></option>
+              <option value="Female"></option>
+              <option value="Other"></option>
+            </datalist>
+          </label>
+          <br />
+          <label>
+            Fun fact about yourself:
+            <input type="text" />
+          </label>
+          <br />
+          <label>
+            <input type="checkbox" /> I agree to the terms and conditions
+          </label>
+          <br />
+          <label> Your birthday: <input type="date" /> </label>
+          <div>
+            <button>Submit</button>
+          </div>
+        </fieldset>
+      </form>
+    </main>
+    <hr />
+    <footer>
+      <br />
+      Made by Ben Tomlin &nbsp;
+      <a
+        href="https://github.com/bent101/Lab2_Starter"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img width="24" src="github-logo.png" alt="GitHub logo" />
+      </a>
+    </footer>
+  </body>
+</html>
