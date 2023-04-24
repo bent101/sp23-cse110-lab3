@@ -1,11 +1,12 @@
 /* hi */
 h1 {
   color: #555;
-  margin: 2em 1rem;
+  margin: 2em 2em 1rem 1rem;
   padding: 1vw 5px;
 }
 
 h2 {
   color: rgb(100, 100, 100);
   margin: 1in 1cm;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
