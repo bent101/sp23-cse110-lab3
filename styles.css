@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "roboto";
+  src: url("Roboto-Bold.ttf");
+}
+
+h1 {
+  font-family: "roboto";
+  color: #555;
+  margin: 2em 2em 1rem 1rem;
+  padding: 1vw 5px;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(100, 100, 100);
+  margin: 1in 1cm;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+p {
+  border-style: dotted;
+  border-color: blue;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+a {
+  color: green;
+  text-decoration: underline dashed;
+  display: inline-block;
+}
+
+a:hover {
+  color: purple;
+}
+
+button:active {
+  background-color: green;
+}
+
+label {
+  display: block;
+}
+span {
+  /* this does nothing */
+  display: inline;
+}
+
+textarea {
+  min-width: 5rem;
+  min-height: 10rem;
+  width: 10rem;
+  height: 11rem;
+  resize: none;
+}
+
+footer > div {
+  display: flex;
+  align-items: center;
+  justify-items: start;
+  gap: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 8px;
+  place-items: center;
+}
+
+.grid > div {
+  border-radius: 8px;
+  background-color: yellow;
+  padding: 2rem;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .mobile {
+    display: block;
+  }
+}

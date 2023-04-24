@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meeting minutes</title>
     <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <br />
         <a href="#">Meeting 1 Notes</a>
         &nbsp;•&nbsp;
         <a
@@ -19,7 +19,6 @@
           Meeting 2 Notes
         </a>
       </nav>
-      <br />
     </header>
 
     <hr />
@@ -136,22 +135,21 @@
             <input type="radio" name="framework" value="svelte" />
             Svelte
           </label>
-          <br />
+
           <label>
             <input type="radio" name="framework" value="react" />
             React
           </label>
-          <br />
+
           <label>
             <input type="radio" name="framework" value="none" />
             None of the above
           </label>
-          <br />
+
           <label>
             Explain your reasoning in 5 paragraphs:
             <br />
             <textarea cols="30" rows="10"></textarea>
-            <br />
           </label>
           Year:
           <select name="year">
@@ -160,8 +158,6 @@
             <option value="Third">Third</option>
             <option value="Fourth">Fourth</option>
           </select>
-
-          <br />
 
           <label>
             Gender:
@@ -173,16 +169,16 @@
               <option value="Other"></option>
             </datalist>
           </label>
-          <br />
+
           <label>
             Fun fact about yourself:
             <input type="text" />
           </label>
-          <br />
+
           <label>
             <input type="checkbox" /> I agree to the terms and conditions
           </label>
-          <br />
+
           <label> Your birthday: <input type="date" /> </label>
           <div>
             <button>Submit</button>
@@ -191,16 +187,33 @@
       </form>
     </main>
     <hr />
+
+    <h1>Grid demo</h1>
+
+    <div class="grid">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+      <div>7</div>
+      <div>8</div>
+    </div>
+
     <footer>
-      <br />
-      Made by Ben Tomlin &nbsp;
-      <a
-        href="https://github.com/bent101/Lab2_Starter"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img width="24" src="github-logo.png" alt="GitHub logo" />
-      </a>
+      <div>
+        <div>Made by Ben Tomlin &nbsp;</div>
+        <a
+          href="https://github.com/bent101/Lab2_Starter"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img width="24" src="github-logo.png" alt="GitHub logo" />
+        </a>
+        <div style="font-size: 3rem">😀</div>
+        <div class="mobile">Hi mobile users!</div>
+      </div>
     </footer>
   </body>
 </html>
