@@ -48,3 +48,10 @@ textarea {
   height: 11rem;
   resize: none;
 }
+
+footer > div {
+  display: flex;
+  align-items: center;
+  justify-items: start;
+  gap: 1rem;
+}
