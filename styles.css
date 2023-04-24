@@ -22,4 +22,17 @@ p {
 a {
   color: green;
   text-decoration: underline dashed;
+  display: inline-block;
+}
+
+a:hover {
+  display: none;
+}
+
+label {
+  display: block;
+}
+span {
+  /* this does nothing */
+  display: inline;
 }
