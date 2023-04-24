@@ -68,18 +68,31 @@ footer > div {
   place-items: center;
 }
 
-.grid > div {
+.grid div {
   border-radius: 8px;
   background-color: yellow;
   padding: 2rem;
 }
 
-.mobile {
+h3 ~ * {
+  background-color: gray;
+}
+
+input[type="text"] {
+  color: red;
+}
+
+h1 + *,
+h2 + * {
+  background-color: rgb(100, 150, 200);
+}
+
+#mobile {
   display: none;
 }
 
 @media (max-width: 640px) {
-  .mobile {
+  #mobile {
     display: block;
   }
 }
