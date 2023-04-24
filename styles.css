@@ -29,10 +29,22 @@ a:hover {
   display: none;
 }
 
+button:active {
+  background-color: green;
+}
+
 label {
   display: block;
 }
 span {
   /* this does nothing */
   display: inline;
+}
+
+textarea {
+  min-width: 5rem;
+  min-height: 10rem;
+  width: 10rem;
+  height: 11rem;
+  resize: none;
 }
