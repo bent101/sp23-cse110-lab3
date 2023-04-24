@@ -10,3 +10,10 @@ h2 {
   margin: 1in 1cm;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
+
+p {
+  border-style: dotted;
+  border-color: blue;
+  border-width: 1px;
+  border-radius: 5px;
+}
