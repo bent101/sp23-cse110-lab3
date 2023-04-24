@@ -1,3 +1,3 @@
-# Lab 2 - Starter
+# Lab 3
 
-[Github Pages site](https://bent101.github.io/Lab2_Starter/)
+[Github pages site](https://bent101.github.io/sp23-cse110-lab3/)
