@@ -3,6 +3,7 @@ h1 {
   color: #555;
   margin: 2em 2em 1rem 1rem;
   padding: 1vw 5px;
+  text-align: center;
 }
 
 h2 {
@@ -16,4 +17,9 @@ p {
   border-color: blue;
   border-width: 1px;
   border-radius: 5px;
+}
+
+a {
+  color: green;
+  text-decoration: underline dashed;
 }
