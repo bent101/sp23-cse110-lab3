@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-  display: none;
+  color: purple;
 }
 
 button:active {
@@ -67,4 +67,14 @@ footer > div {
   border-radius: 8px;
   background-color: yellow;
   padding: 2rem;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .mobile {
+    display: block;
+  }
 }
